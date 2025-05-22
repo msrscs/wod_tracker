@@ -12,8 +12,8 @@
 #           Hugo Rafael de Souza                       #
 #           Mauro Sérgio Rezende da Silva              #
 #           Silvio Barros Tenório                      #
-# Versão: 1.1                                          #
-# Data: 08/05/2025                                     #
+# Versão: 1.2                                          #
+# Data: 22/05/2025                                     #
 ######################################################## 
 
 # Importa biblioteca os
@@ -351,7 +351,7 @@ def excluir_treino():
                             print("Record Pessoal: Sim")
                         else:
                             print("Record Pessoal: Não")
-                        print(f"Observação: {dados_treino[8]}")
+                        print(f"Observação: {dados_treino[7]}")
 
                         #  Solicita confirmação de exclusão do Treino
                         excluir = input(f"\nConfirma Excluir o Treino N° {dados_treino[0]} ([S] Sim / [N] Não): ").upper()
